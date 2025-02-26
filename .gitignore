@@ -1,0 +1,59 @@
+# ⚠️ Jangan commit file environment variables (data sensitif seperti API keys, database credentials)
+.env
+*.env
+
+# ⚠️ Jangan commit file database lokal (SQLite, PostgreSQL dump, dsb.)
+*.db
+*.sqlite3
+dump.sql
+
+# ⚠️ Jangan commit dependency cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ⚠️ Jangan commit virtual environment (venv)
+venv/
+.env/
+.venv/
+
+# ⚠️ Jangan commit file yang dihasilkan oleh editor/IDE (PyCharm, VSCode, dll.)
+.vscode/
+.idea/
+*.iml
+
+# ⚠️ Jangan commit log & file debugging
+*.log
+logs/
+debug.log
+nohup.out
+
+# ⚠️ Jangan commit file build dari Docker
+docker-compose.override.yml
+*.dockerfile
+
+# ⚠️ Jangan commit file cache Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# ⚠️ Jangan commit hasil testing
+.coverage
+pytest_cache/
+htmlcov/
+
+# ⚠️ Jangan commit file Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# ⚠️ Jangan commit file backup atau temporary
+*.bak
+*.swp
+*.swo
+*.orig
+
+# ⚠️ Jangan commit hasil export atau deployment
+dist/
+build/
+node_modules/
